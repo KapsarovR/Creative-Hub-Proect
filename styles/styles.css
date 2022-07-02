@@ -1,0 +1,462 @@
+body{
+    margin: 0;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.active:after {
+    content: "\2212";
+}
+.accordion:after {
+    content: "\002B";
+    color: #777;
+    font-weight: bold;
+    float: right;
+}
+
+/*-------------------------------------------Font code-------------------------------------- */
+
+div.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background: white;
+    opacity: 0.8;
+}
+div.navbar .d-flex{
+    justify-content: space-between;
+}
+.navbar .container{
+    display: block;
+}
+
+div.dropdown-menu{
+    background: linear-gradient(157.7deg, #ffffff 0%, #ededed 100%);
+    border-radius: 8px !important;
+    box-shadow: 0 25px 40px rgb(0 0 0 / 9%);
+    border: 1px solid #42e8e0 !important;
+    padding: 16px 16px 0 !important;
+}
+
+.kopce {
+    background: transparent;
+}
+.kopce:hover {
+    background: transparent;
+}
+
+.za-desc{
+    display: none;
+}
+.za-tel:hover{
+    text-decoration: none;
+}
+/*---------------------------------------Nav bar code ------------------------------------------------*/
+
+div.hero{
+    background-image: url("../images/Pictures/Hero-Section/Hero\ Section\ Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 6%;
+}
+
+.button-hero{
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #014497;
+    border-radius: 12px;
+    height: 48px;
+    padding: 0 16px;
+    color: white;
+}
+.button-hero:hover{
+    background-color: white;
+    color: #014497;
+    box-shadow: 0px 1px 24px -2px #6264665E;
+}
+
+.button-open{
+    width: 389px;
+    height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: linear-gradient(232.45deg, #014497 -17.71%, #008183 133.24%);
+    border-radius: 12px;
+}
+
+.button-open:hover{
+    background: #FFFFFF;
+    color: #014497;
+    box-shadow: 0px 1px 24px -2px #6264665E;
+}
+/*-------------------------------Hero code----------------------------------------*/
+
+div.test .card-one{
+    border-radius: 24px;
+    padding: 24px;
+    gap: 24px;
+    border: 1px solid #D8D8D8;
+    text-align: center;
+    box-shadow: 0 24px 21px -8px #AFAFAF;
+    background: linear-gradient(#FFFFFF, #D8D8D8 );
+    height: 95%;
+    margin-top: 32px;
+}
+
+.img-card{
+    width: 25%;
+    margin: auto;
+}
+
+
+.test{
+    margin-top: 180px;
+}
+
+.card-one{
+    padding-top: 32px;
+}
+.color-img{
+    color: #9B9B9B;
+}
+
+/*-----------------------------------Card- one --------------------------------------*/
+
+div.two .card{
+    width: 350px;
+    height: 395px;
+    border-radius: 12px;
+    padding: 24px, 18px, 24px, 18px;
+    gap: 24px;
+    border: 1px solid grey #C4C4C4;
+    box-shadow: 0 24px 21px -8px #AFAFAF;
+}
+div.two .card:hover{
+    /* box-shadow: #626566; */
+    filter: drop-shadow(0 -1mm 1mm #626466);
+}
+
+
+.img-card-one{
+    max-width: 75%;
+    height: 25%;
+    margin: auto;
+    border-radius: 5%;
+    margin-top: 32px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    margin: 2%;
+}
+
+.carousel-caption {
+    right: 0;
+    text-align: start;
+}
+
+div.two .button-two{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: linear-gradient(232.45deg, #014497 -17.71%, #008183 133.24%);
+    border-radius: 12px;
+    padding: 0 16px;
+    height: 42px;
+}
+
+div.two .button-two:hover{
+    background: #FFFFFF;
+    color: #014497;
+    box-shadow: 0px 1px 24px -2px #6264665E;
+}
+
+
+/* ------------------------------------Card Two code---------------------------------- */
+
+.card-0{
+    width: 14rem;
+    background: gray;
+    height: 134px;
+    background: linear-gradient(90.56deg, #D8D8D8 2.85%, #CCCCCC 101.11%);
+}
+
+.card-1{
+    background: linear-gradient(231.38deg, #5DA0EF 34.17%, #44FF78 119.03%);
+    z-index: 999;
+    height: 217px;
+    width: 284px;
+    border-radius: 48px;
+}
+.card-2{
+    background: linear-gradient(223.57deg, #EF5DA8 46.58%, #FFDA44 110.23%);
+    z-index: 998;
+}
+.card-3{
+    background: linear-gradient(162.44deg, #5162FF 0%, #778DFF 100%);
+    z-index: 997;
+}
+.card-4{
+    background: linear-gradient(139.31deg, #FF6BDF -7.14%, #A400CD 99.28%);
+    z-index: 996;
+}
+
+
+.card-2,
+.card-3{
+    height: 217px;
+    width: 350px;
+    border-radius: 48px;
+    left: 7%;
+}
+.card-4{
+    height: 217px;
+    width: 380px;
+    border-radius: 48px;
+    left: 24%;
+}
+
+div.card-2 .card-body,
+div.card-3 .card-body,
+div.card-4 .card-body{
+    margin-left: 15%;
+}
+
+
+div.card .text-1{
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 900;
+    
+}
+div.card .text-2{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.center-menu h1{
+    margin-left: 11%;
+    margin-top: 180px;
+}
+
+
+/*---------------------------------------- Centar code----------------------------------------- */
+
+.text-scrol{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.text-black{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+div.collapseTeen{
+    width: Hug(1,195px);
+    height: Hug(77px);
+    background:#F7F7F7;
+    border-radius: 12px; 
+    gap: 16px;
+    padding: 2%;  
+}
+div.collapseTeen:hover{
+    filter: drop-shadow(0 1rem 0.75rem #626466);
+    border-radius: 12px;
+}
+.card-header {
+    background:#F7F7F7;
+    padding: 0;
+    border-bottom: none;
+}
+
+/*-----------------------------------Scroll Code-------------------------------- */
+
+.card-speakers{
+    width: 260px;
+    /* height: 390.27px; */
+    border-radius: 24px;
+    padding: 8px 12px;
+    gap: 8px;
+    border: 2.42px solid #C4C4C4;
+    filter: drop-shadow(0 0.3rem 0.3rem #5DA0FF);
+}
+
+
+/* ---------------------Speakars code ---------------------------  */
+
+
+
+div.footer{
+    background-image: url("../images/Pictures/Other/footer_bg.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+div.footer a{
+    font-weight: 700;
+    font-size: 17px;
+    color: #606060;
+}
+div.footer a:hover{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+div.top{
+    margin-top: 70%;
+    margin-left: 70%;
+}
+
+/*------------------------------------------------------Footer code ---------------------------------------------------*/
+
+/*---------------------------Desctop code ----------------------------*/
+
+@media screen and (max-width: 768px){
+    div.ice-color{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+    }
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .card-title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .card-text{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .test{
+        margin-top: 96px;
+    }
+
+    /*Fond size */
+  
+
+
+    div.hero .hero-img{
+        width: 75%;
+    }
+
+    .za-desc{
+        display: block;
+    }
+    /* Hero code */
+
+
+    div.test .card-one{
+        border-radius: 12px;
+        padding: 0px;
+        gap: 0px;
+    }
+
+    .img-card {
+        width: 40%;
+    }
+
+    /* Card one code */
+
+    .center-menu h1{
+        margin-top: 96px;
+    }
+
+    div.two .card{
+        width: 325px;
+        height: 415px;
+        padding: 16px 12px;
+        gap: 12px;
+        margin: auto;
+    }
+
+    /* Card two code */
+
+    .img-logo,
+    div.ice-color,
+    .za-tel,
+    div.top {
+        display: none;
+    }
+
+    div.scroll-card{
+        width: 383px;
+        height: 114px;
+    } 
+
+    #carouselExampleCaptions{
+        width: 100%;
+    }
+
+    .carousel-caption{
+        display: none;
+    }
+    .card-speakers{
+        height: auto;
+        width: auto;
+    }
+
+}
+
+/*------------------------------Mobile code --------------------------------------*/
